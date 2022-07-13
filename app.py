@@ -9,6 +9,12 @@ app = Flask(__name__)
 LOG = create_logger(app)
 LOG.setLevel(logging.INFO)
 
+logging.basicConfig(filename='docker_out.log', level=logging.INFO,
+                    format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
+logging.info('Info level log')
+logging.warning('Warning level log')
+
 
 def scale(payload):
     """Scales Payload"""
@@ -65,6 +71,8 @@ def predict():
     # get an output prediction from the pretrained model, clf
     prediction = list(clf.predict(scaled_payload))
     # TO DO:  Log the output prediction value
+    app.logger.info(prediction)
+
     return jsonify({'prediction': prediction})
 
 
