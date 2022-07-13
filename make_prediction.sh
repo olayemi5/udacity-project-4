@@ -3,9 +3,6 @@
 PORT=8080
 echo "Port: $PORT"
 
-# ping the url
-curl -I http://localhost:$PORT/ >> status.txt
-
 # POST method predict
 curl -d '{  
    "CHAS":{  
