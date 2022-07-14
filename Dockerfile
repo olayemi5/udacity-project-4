@@ -12,6 +12,7 @@ COPY . /app
 # Install packages from requirements.txt
 RUN pip install --upgrade pip &&\
     pip install  -r requirements.txt
+RUN hadolint --ignore DL3013 
 # hadolint ignore=DL3013
 
 ## Step 4:
