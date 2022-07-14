@@ -2,7 +2,7 @@ make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/User/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/project-ml-microservice-kubernetes'
 # Create python virtualenv & source it
 # source ~/.devops/bin/activate
- 
 python3 -m venv ~/.devops
+ 
 make: Leaving directory 'c:/Users/User/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/project-ml-microservice-kubernetes'
  

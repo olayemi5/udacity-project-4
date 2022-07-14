@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue Jul 12 10:00:42 2022
+# Make data base, printed on Thu Jul 14 15:49:20 2022
 
 # Variables
 
@@ -24,7 +24,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\User\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ba590106-9e4f-4ab5-8ff4-bbb68a78a350-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1dbe0580-e381-4a25-b1df-c834288e15c8-sock
 # environment
 VSCODE_CWD = C:\WINDOWS\system32
 # environment
@@ -40,7 +40,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14008_RFNDXFLTPUGCSAUZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3108_AMXXBBHFFQVHDXJW
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -100,7 +100,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 14008
+VSCODE_PID = 3108
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -216,8 +216,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 PROCESSOR_REVISION = 4e03
 # environment
-AZURE_STORAGE_CONNECTION_STRING = Defa 
-ultEndpointsProtocol=https;AccountName=innotelligentazureblob;AccountKey=8FVx283dVv7VNYYFfbMVB8TFhp11gs1EAyI2fRpFWVdvsPFXue5WXAmM48eKfsPE6J52KMNAdvW/v1u16kGWBA==;EndpointSuffix=core.windows.net
+AZURE_STORAGE_CONNECTION_STRING = DefaultEndpointsProtocol=https;AccountName=innotelligentazureblob;AccountKey=8FVx283dVv7VNYYFfbMVB8TFhp11gs1EAyI2fRpFWVdvsPFXue5WXAmM48eKfsPE6J52KMNAdvW/v1u16kGWBA==;EndpointSuffix=core.windows.net
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
@@ -229,9 +228,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/User/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/project-ml-microservice-kubernetes, mtime 1657613611): 15 files, no impossibilities.
+# . (key c:/Users/User/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/root/project-ml-microservice-kubernetes, mtime 1657803573): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -258,12 +257,13 @@ lint:
 	hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
-	pylint --disable=R,C,W1203,W1202 app.py
+	pylint --disable=R,C,W1203,W1202,E1101 app.py
 
 # Not a target:
 Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-11 10:49:32
+#  Implici 
+t rule search has been done.
+#  Last modified 2022-07-14 14:02:01
 #  File has been updated.
 #  Successfully updated.
 
@@ -334,12 +334,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 215 B / avg = 9 B
-# current buf: size = 8174 B / used = 215 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 225 B / avg = 9 B
+# current buf: size = 8174 B / used = 225 B / count = 23 / avg = 9 B
 
-# strcache performance: lookups = 36 / hit rate = 38%
+# strcache performance: lookups = 37 / hit rate = 37%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/36=0%
-# Finished Make data base on Tue Jul 12 10:00:42 2022
+# Load=23/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Thu Jul 14 15:49:20 2022
 
  
