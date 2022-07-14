@@ -10,8 +10,8 @@ COPY . /app
 
 ## Step 3:
 # Install packages from requirements.txt
-RUN pip install --upgrade pip
-RUN pip install --no-deps --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip &&\
+    pip install  -r requirements.txt
 # hadolint ignore=DL3013
 
 ## Step 4:
