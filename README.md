@@ -1,4 +1,4 @@
-![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs/?branch=teesloane-patch-5)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/olayemi5/udacity-project-4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/olayemi5/udacity-project-4/tree/master)
 
 ## Project Overview
 
